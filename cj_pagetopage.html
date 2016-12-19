@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>页面传参  插件练习</title>
+</head>
+<body>
+	<div id="myclick">111111</div>
+	<script src="js/zepto.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/pagetopage.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#myclick').on('tap',function(){
+				window.location.href="cj_pagetopage1.html?abc=1"
+			});
+		});
+	</script>
+	
+	
+</body>
+</html>
